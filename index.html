@@ -135,7 +135,17 @@ window.onload=function(){setTimeout(showPopup,4000)};
 
 function showPopup()
 {
-   //write functionality for the code here
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Press a button!")) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>    
 }
 </script>
 
