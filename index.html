@@ -2,29 +2,37 @@
 <html>
   <head>
     <title>LundiS7_project</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
 
   <body>
     <header>
-        <ul>
+        <ul class="navbar">
             
-            <li>LundiS7_project</li>
-            <li>Samuel<img src=""></li>
-            <li><a href="https://sassani134.github.io/"> clique ici </a></li>
-
+            <li class="elment_nav">LundiS7_project</li>
+            <li class="elment_nav">Samuel<img src="images/propic.png"></li>
+            <li class="elment_nav" id="smaller"><a href="https://sassani134.github.io/"> clique ici </a></li>
+            <li class="elment_nav"><button>Bouton 1</button></li>
+            <li class="elment_nav"><button>Bouton 2</button></li>
+            <li class="elment_nav"><button>Bouton 3</button></li>
 
         </ul>
     </header>
     <content>
-        
+        <h1 id="titre"> Yolo </h1>
+        <div class="bloc">
+            <article class="p_right">
+              Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.  
+            </article>
+            <img class="pic_left" src="images/eri.jpg">
+        </div>
     </content>
-    <footer>
-        
-    </footer>
-  </body>
+     <footer>
+      <ul class="navbar">
+      <li class="elment_nav"><a href="https://plus.google.com/"> Google+ </a></li>
+     
+        <li></li>
+      </ul>
+</footer>
+      </body>
 </html>
