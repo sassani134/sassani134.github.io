@@ -1,37 +1,77 @@
-#titre{
-	text-align: center;
+body {
+  background: #00091B;
+  color: #fff;
 }
 
-#smaller{
-	height: 20%; 
-    width: 20%; 
-    max-width: 300px; 
-    max-height: 300px;
+
+@keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
 }
 
-.navbar{
-	background: rgb(210,210,210);
-	justify-content: flex-start
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
 }
 
-.elment_nav{
-display: inline;
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  
 }
 
-.bloc{
-display: flex;
+h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
 }
 
-.p_right{
-
+.dot {
+  color: #4FEBFE;
 }
 
-.pic_left{
-
+p {
+  text-align: center;
+  margin: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  
 }
-html {
 
- background-size: cover;
-  background: linear-gradient(165deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%); //C'est un filtre random pris sur CSSGradient
-  url('my_background_image.jpg');  #le lien de ton image
+.icons {
+  text-align: center;
+  
+}
+
+.icons i {
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.icons i:hover, .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
+  
 }
