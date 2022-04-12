@@ -75,3 +75,9 @@ p {
   text-decoration: none;
   
 }
+
+.line{
+  width: 100vh;
+  border-bottom: 1px solid white;
+  position: absolute;
+}
