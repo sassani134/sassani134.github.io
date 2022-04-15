@@ -1,8 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #C0AD00;
   color: #fff;
+  padding-bottom: 60px;
 }
 
+.title {
+  text-align: center;
+  font-size: 80px;
+  padding: 120px 0;
+}
+
+/*#section1 {
+  min-height: 100vh;
+}*/
+
+.header {
+  background-image: url(img/vector_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-ruby {
+  margin-right: 150px;
+  width: 35%;
+}
+
+.sous-titre {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.text {
+  font-size: 30px;
+}
 
 @keyframes fadeIn {
   from {top: 20%; opacity: 0;}
@@ -39,7 +88,7 @@ h1 {
   color: #4FEBFE;
 }
 
-p {
+.slogan  {
   text-align: center;
   margin: 18px;
   font-family: 'Muli', sans-serif;
@@ -74,10 +123,4 @@ p {
   -webkit-transform: scale(1.2);
   text-decoration: none;
   
-}
-
-.line{
-  width: 100vh;
-  border-bottom: 1px solid white;
-  position: absolute;
 }
