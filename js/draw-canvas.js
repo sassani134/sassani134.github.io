@@ -35,3 +35,7 @@ paintCanvas.addEventListener( 'mousedown', startDrawing );
 paintCanvas.addEventListener( 'mousemove', drawLine );
 paintCanvas.addEventListener( 'mouseup', stopDrawing );
 paintCanvas.addEventListener( 'mouseout', stopDrawing );
+
+canvas.addEventListener('touchstart', startDrawing);
+canvas.addEventListener('touchmove', drawLine);
+canvas.addEventListener('touchend', stopDrawing);

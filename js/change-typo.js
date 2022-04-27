@@ -30,7 +30,7 @@ function change_typo() {
 	const typo_choosen = typo_array[Math.floor(Math.random() * typo_array.length)];
 	console.log(typo_choosen);
 	target.style.fontFamily = typo_choosen;
-	setTimeout(change_typo, 2000)
+	setTimeout(change_typo, 1000)
 }
 
 change_typo();

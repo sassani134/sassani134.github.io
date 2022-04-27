@@ -25,7 +25,7 @@ function handleSubmit() {
 	}
 
 	// document.getElementById("colorCode").innerHTML = hexColorCode;
-	document.getElementsByTagName("body")[0].style.background = "#" + hexColorCode;
+	document.getElementsByTagName("p")[0].style.color = "#" + hexColorCode;
 }
 
 document.getElementById("section1").addEventListener("click", function() {

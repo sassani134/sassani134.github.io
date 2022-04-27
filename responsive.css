@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    body {
+        overflow: scroll;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .image-ruby {
+        margin-bottom: 40px;
+    }
+}
